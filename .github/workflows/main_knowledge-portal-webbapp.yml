@@ -28,8 +28,10 @@ jobs:
           npm run test --if-present
 
       - name: Zip artifact for deployment
+        id: archive
+        run: |
           git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | xargs zip release.zip
-
+          
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
