@@ -1,4 +1,4 @@
-console.log("app.js");
+console.log("app.js enhanced");
 var createError = require("http-errors");
 var express = require("express");
 var mongoose = require("mongoose");
