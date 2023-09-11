@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/b17421b4-d649-469e-84bc-73bd96176e69/resourceGroups/knowledge-portal-group/providers/Microsoft.Web/sites/knowledge-portal-webbapp",
+    "appService.deploySubpath": "."
+}
