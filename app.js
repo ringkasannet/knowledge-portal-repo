@@ -1,3 +1,4 @@
+console.log("app.js");
 var createError = require("http-errors");
 var express = require("express");
 var mongoose = require("mongoose");
@@ -62,7 +63,7 @@ async function getApp() {
  * Normalize a port into a number, string, or false.
  */
 
- function normalizePort(val) {
+function normalizePort(val) {
   var port = parseInt(val, 10);
 
   if (isNaN(port)) {
